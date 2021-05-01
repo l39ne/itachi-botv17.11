@@ -694,10 +694,10 @@ Lxa.sendMessage(hehe, teks, text)
 }
 const forwd = { forwardingScore: 1000, isForwarded: true }
 const ftoko = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "productMessage": { "product": { "productImage":{ "mimetype": "image/jpeg", "jpegThumbnail": fs.readFileSync(`image/odc.jpeg`)}, "title": fake, "description": "ManikGanz", "currencyCode": "USD", "priceAmount1000": "5000000000", "retailerId": "FdL Fkyy", "productImageCount": 1}, "businessOwnerJid": `59172945992@s.whatsapp.net`}}}
-const freply2 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: "6283136505591-1614953337@g.us", id: "B391837A58338BA8186C47E51FFDFD4A" }, message: { documentMessage: { 'jpegThumbnail': fs.readFileSync('image/odc.jpeg'), mimetype: "application/octet-stream",title: "\n*BOTZ WHATSAPP*", fileLength: "36", pageCount: 0, fileName: `*\nBOTZ WHATSAPP*\n`}}, messageTimestamp: "1614069378", status: "PENDING"}
-const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "\n*BOTZ WHATSAPP*\n", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('image/odc.jpeg')} } }
+const freply2 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: "6283136505591-1614953337@g.us", id: "B391837A58338BA8186C47E51FFDFD4A" }, message: { documentMessage: { 'jpegThumbnail': fs.readFileSync('image/odc.jpeg'), mimetype: "application/octet-stream",title: "\n*DyLux • Verificado*", fileLength: "36", pageCount: 0, fileName: `*\nDyLux • Verificado*\n`}}, messageTimestamp: "1614069378", status: "PENDING"}
+const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "\n*DyLux • Verificado*\n", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('image/odc.jpeg')} } }
 const mentions = (teks, memberr, id) => {
-	(id == null || id == undefined || id == false) ? Lxa.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : Lxa.sendMessage(from, teks.trim(), extendedText, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "\n*BOTZ WHATSAPP*\n", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('image/odc.jpeg')} } }, contextInfo: {"mentionedJid": memberr}})
+	(id == null || id == undefined || id == false) ? Lxa.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : Lxa.sendMessage(from, teks.trim(), extendedText, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "\n*DyLux • Verificado*\n", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('image/odc.jpeg')} } }, contextInfo: {"mentionedJid": memberr}})
 			}
 const costum = (pesan, tipe, target, target2) => {
  Lxa.sendMessage(from, pesan, tipe, {quoted: {key: {fromMe: false, participant: `${target}`, ...(from ? {
@@ -1499,7 +1499,7 @@ Hola *${pushname}*
 ‣ Prefijo: *${prefix}* 
 ‣ Nombre: *DyLux*
 ‣ Modo: *Enlinea*
-‣ Usuarios* : ${user.length} 
+‣ Usuarios : *${user.length}* 
 ‣ Grupo: https://chat.whatsapp.com/Ly4I2LObSvW8VgOnJjofgA
 ‣ Grupo:  http://t.me/AndroidWorldfg
 
@@ -1732,7 +1732,7 @@ Hola *${pushname}*
 ┠⊷️ *${prefix}tts*
 ┠⊷️ *${prefix}igstalk*
 ┠⊷️ *${prefix}timer*
-┠⊷️ *${prefix}escribe*
+┠⊷️ *${prefix}nulis*
 ┠⊷️ *${prefix}nickff*
 ┠⊷️ *${prefix}ocr*
 ┠⊷️ *${prefix}ocr*
@@ -6489,7 +6489,7 @@ captionnya = `╭◪ *「 VERIFICADO 」*
 ╭───────────────╯
 ├━⊱Nombre: ${pushname}
 ├━⊱Num: wa.me/${sender.split("@")[0]}
-├━⊱Hora pendaftaran: ${time}
+├━⊱Hora: ${time}
 ├━⊱NS: ${createSerial(15)}
 ╰───────────────╯
 verificación completa usa *${prefix}Help* para ver el Menu`
