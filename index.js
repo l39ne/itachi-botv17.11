@@ -1266,13 +1266,13 @@ quoted: mek
   })
 }
 if(budy.match('fg')){
-result = fs.readFileSync(`./temp/stick/owa.webp`)
+result = fs.readFileSync(`./temp/stick/fg.webp`)
   Lxa.sendMessage(from, result, sticker, {
 quoted: mek
   })
 }
 if(budy.match('Owa')){
-result = fs.readFileSync(`./temp/stick/owa.webp`)
+result = fs.readFileSync(`./temp/stick/fg.webp`)
   Lxa.sendMessage(from, result, sticker, {
 quoted: mek
   })
@@ -1291,17 +1291,17 @@ quoted: mek
 }
 if (budy.includes("fg98")){
   reply(`*${pushname}*, ¿Por qué llamas a mi dueño?`)
-  const fdl = fs.readFileSync('./temp/stick/cakit.webp');
+  const fdl = fs.readFileSync('./temp/stick/fg.webp');
   Lxa.sendMessage(from, fdl, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "*Ngapain manggil² owner gw?*", 'jpegThumbnail': fs.readFileSync('./temp/stick/menggokil.webp')}}}})
      }
       if (budy.includes("reglas")){
 		Lxa.updatePresence(from, Presence.composing)
 	 const loli = fs.readFileSync('./mp3/rules.mp3')
    Lxa.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-   const d = fs.readFileSync('./temp/stick/jget.webp');
+   const d = fs.readFileSync('./temp/stick/rules.webp');
    Lxa.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "song : DJ FG98", 'jpegThumbnail': fs.readFileSync('./temp/stick/owa.webp')}}}})
         }
-      if (budy.includes("rules")){
+      if (budy.includes("Trkft")){
  Lxa.updatePresence(from, Presence.composing)
 		const coli = fs.readFileSync('./mp3/rules.mp3')
  Lxa.sendMessage(from, coli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
