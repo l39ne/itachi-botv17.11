@@ -3101,8 +3101,8 @@ const pengirim = pantunn[Math.floor(Math.random() * pantunn.length)]
 Lxa.sendMessage(from, pengirim, text, { quoted: mek })
 break   
     case 'sayang':
-			'okick':
-			'oban':
+			 case 'okick':
+			 case 'oban':
   if (isBanned) return reply(mess.only.benned)
 	if (!isGroup) return reply(mess.only.group)
   if (!isGroupAdmins) return reply(mess.only.admin)
