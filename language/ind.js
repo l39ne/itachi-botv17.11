@@ -27,12 +27,13 @@ exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel)
 	return`
 ╭◪ *「 ⇮ FELICITACIONES ⇮  」* 
 ╰───────────────╮ 
-┠⊷ Subiste de Nivel
+├⊱► _*Subiste de Nivel*_
 ╭───────────────╯
 ├⊱► Nombre : ${pushname}
 ├⊱► Numero : ${sender.split("@")[0]}
 ├⊱► Xp : ${getLevelingXp(sender)}
 ├⊱► Limite :  +3
+├⊱► Rango : *${role}*
 ├⊱► Nivel : ${getLevel} ➪ ${getLevelingLevel(sender)}
 ╰───────────────╯`
 }
