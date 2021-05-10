@@ -5544,7 +5544,7 @@ var options = {
 text: tekst1,
 contextInfo: {mentionedJid: [namar]},
 }
-Lxa.sendMessage('59172945992@s.whatsapp.net', options, text, {quoted: mek})
+Lxa.sendMessage('5491158332090@s.whatsapp.net', options, text, {quoted: mek})
 reply('El problema ha sido informado al propietario de Dylux ┃ ᴮᴼᵀ, informes falsos/no será respondido.')
 break
 
