@@ -139,14 +139,14 @@ const vcard1 = 'BEGIN:VCARD\n'
  + 'VERSION:3.0\n' 
  + 'FN:FG98\n'
  + 'ORG:Dueño de DyLuxBot;\n' 
- + 'TEL;type=CELL;type=VOICE;waid=5491158332090:+591 72945992\n'
+ + 'TEL;type=CELL;type=VOICE;waid=5491158332090:5491158332090\n'
  + 'END:VCARD'
       
 const vcard2 = 'BEGIN:VCARD\n' 
  + 'VERSION:3.0\n' 
  + 'FN:FG98-2\n'
  + 'ORG:OWNER DyLux Bot;\n' 
- + 'TEL;type=CELL;type=VOICE;waid=5493884725288:+54 9 388 472-5288\n'
+ + 'TEL;type=CELL;type=VOICE;waid=5491158332090:+5491158332090\n'
  + 'END:VCARD'
   
 ban = []
