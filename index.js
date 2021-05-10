@@ -139,7 +139,7 @@ const vcard1 = 'BEGIN:VCARD\n'
  + 'VERSION:3.0\n' 
  + 'FN:FG98\n'
  + 'ORG:Dueño de DyLuxBot;\n' 
- + 'TEL;type=CELL;type=VOICE;waid=59172945992:+591 72945992\n'
+ + 'TEL;type=CELL;type=VOICE;waid=5491158332090:+591 72945992\n'
  + 'END:VCARD'
       
 const vcard2 = 'BEGIN:VCARD\n' 
